@@ -155,7 +155,9 @@ body {
 .body-section {
     width: 100%;
     height: 350px;
-    background: center/50% no-repeat url(file:///C:/Users/katsu/Downloads/bg-2.svg);
+   
+   <!--
+    background: center/50% no-repeat url();
     background-size: cover;
     border-radius: 5px;
 
@@ -254,7 +256,8 @@ h1 {
 }
 
 .panel-section {
-    background: center/50% no-repeat url(file:///C:/Users/katsu/Downloads/bg-2.svg);
+   <!--https://iradesign.io/illustrations/backgroundsからイラストを使用-->
+    background: center/50% no-repeat url);
     width: 100%;
     height: 250px;
     border-radius: 10px;
