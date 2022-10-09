@@ -1,0 +1,392 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.body-section {
+    width: 100%;
+    height: 350px;
+    background: center/50% no-repeat url(file:///C:/Users/katsu/Downloads/bg-2.svg);
+    background-size: cover;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: #8826ff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.freebutton {
+    border: 1px solid rgb(7, 177, 38);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(7, 177, 38);
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+    line-height: 30px;
+}
+
+.freebutton:hover,
+.freebutton:focus {
+    background-color: rgb(111, 207, 151);
+    color: white;
+}
+
+.h-about {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 30px;
+    text-align: center;
+    color: #8826ff;
+}
+
+.about-div {
+    padding-top: 5px 10px;
+    background: #FFF;
+    border: solid 3px #8826ff;
+    border-radius: 10px;
+    min-width: 200px;
+
+
+}
+
+.about-h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #8826ff;
+    padding-bottom: 20px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-picture {
+    min-width: 40%;
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+
+
+.about-section {
+    margin: 10px;
+}
+
+.about-p1 {
+    word-break: break-all;
+}
+
+.about-p2 {
+    word-break: break-all;
+}
+
+.h-features {
+    font-weight: bold;
+    font-size: larger;
+    margin: 30px;
+    text-align: center;
+    color: #8826ff;
+}
+
+.features-picture {
+    width: 40%;
+    height: 300px;
+    background-color: #60a9ff;
+}
+
+.panel-section {
+    background: center/50% no-repeat url(file:///C:/Users/katsu/Downloads/bg-2.svg);
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.personel-Enterprise {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.features-header {
+    font-weight: bold;
+}
+
+.div-features1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: right;
+
+}
+
+
+
+.features-img {
+    width: 200px;
+}
+
+.features2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.features2-img {
+    width: 200px;
+}
+
+.contact-h {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 3%;
+    color: #8826ff;
+}
+
+.contact-select {
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid #CCC;
+    min-width: 300px;
+}
+
+.contact-input {
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid #CCC;
+    min-width: 300px;
+}
+
+.contact-label {
+    margin: 10px;
+}
+
+th:nth-child(1) {
+    vertical-align: middle;
+}
+
+.contact-textarea {
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid #CCC;
+    min-width: 300px;
+    min-height: 100px;
+
+}
+
+.form-table {
+    margin: 0 auto;
+}
+
+.form-table th {
+    padding: 10px;
+    text-align: left;
+}
+
+.form-table td {
+    padding: 10px;
+}
+
+.form-button {
+    text-align: center;
+}
+
+
+
+button {
+    background: rgb(7, 177, 38);
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: medium;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.footer {
+    background-color: rgb(88, 99, 248);
+    text-align: center;
+    height: 25px;
+    color: white;
+}
+
+.footer-th {
+    font-weight: 700px;
+    font-size: medium;
+    padding: 10px;
+}
+
+.footer-td {
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+a {
+    color: white
+}
