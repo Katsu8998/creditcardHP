@@ -156,7 +156,7 @@ body {
     width: 100%;
     height: 350px;
    
-   <!--
+   
     background: center/50% no-repeat url();
     background-size: cover;
     border-radius: 5px;
@@ -256,7 +256,7 @@ h1 {
 }
 
 .panel-section {
-   <!--https://iradesign.io/illustrations/backgroundsからイラストを使用-->
+  
     background: center/50% no-repeat url);
     width: 100%;
     height: 250px;
